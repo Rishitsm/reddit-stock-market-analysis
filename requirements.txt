@@ -1,0 +1,10 @@
+praw
+pandas
+python-dotenv
+matplotlib
+yfinance
+transformers
+tensorflow
+seaborn
+tf-keras
+scikit-learn
