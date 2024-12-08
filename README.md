@@ -60,10 +60,12 @@ source .venv/bin/activate
 
 5. Get the Reddit API credentials from this [Link](https://old.reddit.com/prefs/apps)
 <br>
-6. Create an app and paste the credentials into **.env** file (**env.example** file created for the structure):
-`CLIENT_ID = your_reddit_client_id`
-`CLIENT_SECRET = your_reddit_client_secret`
-`USER_AGENT = your_app_user_agent`
+6. Create an app and paste the credentials into **.env** file (**env.example** file created for the structure):<br>
+```
+CLIENT_ID = your_reddit_client_id
+CLIENT_SECRET = your_reddit_client_secret
+USER_AGENT = your_app_user_agent
+```
 <br>
 
 7. Run the **`scrap.py`** file to scrape data from the Reddit website. This will generate a CSV file (`tech_threads_last_year.csv`) in the `data/` directory:
